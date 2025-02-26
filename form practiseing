@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <!--wihtout using div tag-->
+    <form>
+    <label for="username">username</label>
+    <input type="text" id="uname" name="uname" value="alice " placeholder="enter your name "/>
+    <!--using div tag-->
+    <div>
+        <label>name</label>
+        <input type="password" id="ps" name="ps" value=" "/>
+    </div>
+    <!--using  date tag-->
+    <div>
+        <label>gate of birth</label>
+        <input type="date" id="da" name="da" value=" " placeholder="enter your date oif birth"/>
+    </div>
+    <!--using maxlength tag-->
+    <div>
+          <label> moblie number</label>
+          <input type="text" id="te" name="te" value="91+" maxlength="12"/>
+    </div>
+    <!--using maxlength tag-->
+    <div>
+        <label>mail</label>
+        <input type="email" id="em" name="em" value=" " placeholder="enter your email" size="20"/>
+    </div>
+    <!--using radio tag-->
+    <div>
+        <label>gender</label>
+        <input type="radio" id="gen" name="gender" value="male" checked/>male
+        <input type="radio" id="gen" name="gender" value="female" checked/>female
+    </div>
+    <!--using radio tag-->
+    <div>
+            <label>skills</label>
+            <input type="checkbox" id="sk" name="sk" value="python"/>python
+            <input type="checkbox" id="sk" name="sk" value="html"/>html
+            <input type="checkbox" id="sk" name="sk" value="css"/>
+    </div>
+    <!--using radio tag-->
+    <div>
+        <select>
+        <tr>
+            <td><option value="choose">choose</option></td>
+            <td><option value="tamil">tamil</option></td>
+            <option value="english">english</option>
+        </tr>
+        </select>
+</div>
+ </form>
+    
+</body>
+</html>
+    
+        
+
+    
+
+        
+
+        
+
+
+   
